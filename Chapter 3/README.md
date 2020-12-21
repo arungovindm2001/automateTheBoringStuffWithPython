@@ -13,7 +13,12 @@ The `def` statement
 
 ---
 def < function_name > (< arguments >):
-&nbsp;&nbsp;&nbsp;&nbsp;Statements`
+&nbsp;&nbsp;&nbsp;&nbsp;Statement 1<br />
+&nbsp;&nbsp;&nbsp;&nbsp;Statement 2<br />
+&nbsp;&nbsp;&nbsp;&nbsp;Statement 3<br />
+&nbsp;&nbsp;&nbsp;&nbsp;.<br />
+&nbsp;&nbsp;&nbsp;&nbsp;.<br />
+&nbsp;&nbsp;&nbsp;&nbsp;.<br />
 
 ---
 
