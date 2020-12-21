@@ -12,7 +12,7 @@ When the function is called.
 The `def` statement
 
 ---
-def < function_name > (< arguments >):
+def < function_name > (< arguments >):<br />
 &nbsp;&nbsp;&nbsp;&nbsp;Statement 1<br />
 &nbsp;&nbsp;&nbsp;&nbsp;Statement 2<br />
 &nbsp;&nbsp;&nbsp;&nbsp;Statement 3<br />
