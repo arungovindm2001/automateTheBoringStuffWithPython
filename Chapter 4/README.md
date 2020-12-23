@@ -50,7 +50,7 @@ Therefore, it evaluates to spam[0] which is 'a'.
 
 #### 8. What does bacon.remove('cat') make the list value in bacon look like?
 
-`bacon.remove('cat')` will remove the first 'cat' with the index number 1.
+`bacon.remove('cat')` will remove the first 'cat' with the index number 1.<br />
 So bacon will be [3.14, 11, 'cat', True, 99]
 
 ## 9. What are the operators for list concatenation and list replication?
@@ -122,8 +122,8 @@ Consider a string 'amFOSS'. We can represent the string like this(like in lists)
 |0|1|2|3|4|5|
 |-6|-5|-4|-3|-2|-1|
 
-`string = 'amFOSS'`
 ```
+>>>string = 'amFOSS'
 >>>string[0]
 'a'
 >>>string[0:2]
@@ -133,7 +133,6 @@ True
 >>>'bi0s' not in string
 True
 ```
-
 
 ## 13. What is the difference between lists and tuples?
 
