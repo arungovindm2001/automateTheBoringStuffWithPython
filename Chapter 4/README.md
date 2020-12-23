@@ -162,7 +162,7 @@ We can convert list to tuple and vice-versa by typing the data type we want it t
 list(<tuplename>)
 tuple(<listname>)
 ```
-## 16. Variables that “contain” list values don’t actually contain lists directly. What do theycontain instead?
+## 16. Variables that “contain” list values don’t actually contain lists directly. What do they contain instead?
 
 Variables store references to list values.
 
