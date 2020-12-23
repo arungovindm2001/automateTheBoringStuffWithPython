@@ -113,9 +113,9 @@ Using remove() method<br />
 
 ## 12. Name a few ways that list values are similar to string values.
 
-Strings like lists, represent ordered sequence of values. They also have indexing, slicing and using them with `for` loops, with `len()` and in and not in operators.
+Strings, like lists, represent ordered sequence of values. They also have indexing, slicing and using them with `for` loops, with `len()` and `in` and `not in`operators.
 
-Consider a string 'amFOSS'. We can represent the string like this(like in lists):
+Consider a string 'amFOSS'. We can represent the string like this (like in lists):
 
 |a|m|F|O|S|S|
 |-|-|-|-|-|-|
@@ -128,6 +128,16 @@ Consider a string 'amFOSS'. We can represent the string like this(like in lists)
 'a'
 >>>string[0:2]
 'am'
+>>>for i in string:
+      print(i)
+a
+m
+F
+O
+S
+S
+>>>len(string)
+6
 >>>'FOSS' in string
 True
 >>>'bi0s' not in string
