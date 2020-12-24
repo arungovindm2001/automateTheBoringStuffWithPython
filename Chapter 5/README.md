@@ -32,14 +32,14 @@ KeyError: 'foo'
 `'cat' in spam.values()` searches only the values present in the dictionary.
 
 ## 7. What is a shortcut for the following code?
-**if 'color' not in spam:**
-**spam['color'] = 'black'**
+**if 'color' not in spam:**<br />
+&nbsp;&nbsp;&nbsp;&nbsp;**spam['color'] = 'black'**
 
 `spam.setdefault('color','black')`
 
 ## 8. What module and function can be used to “pretty print” dictionary values?
-We import the `pprint` module.
+We import the `pprint` module.<br />
 `import pprint`
 
-function is `pprint()`
+function is `pprint()`<br />
 `pprint.pprint()`
