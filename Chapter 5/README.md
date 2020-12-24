@@ -32,8 +32,8 @@ KeyError: 'foo'
 `'cat' in spam.values()` searches only the values present in the dictionary.
 
 ## 7. What is a shortcut for the following code?
-* if 'color' not in spam: *
-* spam['color'] = 'black' *
+**if 'color' not in spam:**
+**spam['color'] = 'black'**
 
 `spam.setdefault('color','black')`
 
