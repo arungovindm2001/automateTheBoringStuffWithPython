@@ -57,7 +57,7 @@ bi0s
 
 #### 'Hello'.upper().lower()
 
-`False`
+`'hello'`
 
 ## 8. What do the following expressions evaluate to?
 #### 'Remember, remember, the fifth of November.'.split()
