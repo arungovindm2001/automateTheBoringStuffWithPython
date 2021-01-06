@@ -8,13 +8,13 @@ selenium module is used to control a web browser.
 ## 2. What type of object is returned by requests.get() ? How can you access the downloaded content as a string value?
 
 A Response Object.<br />
-`<class 'requests.models.Response'>`
+`<class 'requests.models.Response'>`<br />
 It has a text attribute which can access the download content as a string value.<br />
 `requests.get(url_in_quotes).text`
 
 ## 3. What requests method checks that the download worked?
 
-`requests.get(url_in_quotes).raise_for_status()`
+`requests.get(url_in_quotes).raise_for_status()`<br />
 Displays nothing if successful but displays error if the download disn't work like this:
 ```
 Traceback (most recent call last):
@@ -37,16 +37,16 @@ import requests
 siteContent = requests.get(url_in_quotes)
 textFile = open('RomeoAndJuliet.txt', 'wb')
 for line in siteContent.iter_content(100000):
-&nbsp;&nbsp;&nbsp;&nbsp;textFile.write(line)
+  textFile.write(line)
 playFile.close()
 ```
 This will save the file in the script's directory.
 
 ## 6. What is the keyboard shortcut for opening a browser’s developer tools?
 
-F12 in Chrome and Internet Explorer.
-Ctrl+Shift+C on Windows and Linux.
-Command+Option+C on macOS.
+**F12** in Chrome and Internet Explorer.<br />
+**Ctrl+Shift+C** on Windows and Linux.<br />
+**Command+Option+C** on macOS.
 
 ## 7. How can you view (in the developer tools) the HTML of a specific element on a web page?
 
@@ -68,13 +68,13 @@ Right click on to the element and select **Inspect Element**
 
 `button[value='favorite']`
 
-## 12. Say you have a Beautiful Soup Tag object stored in the variable spam for the element <div>Hello, world!</div> . How could you get a string 'Hello, world!' from the Tag object?
+## 12. Say you have a Beautiful Soup Tag object stored in the variable spam for the element `<div>Hello, world!</div>` . How could you get a string 'Hello, world!' from the Tag object?
 
 `spam.getText()`
 
 ## 13. How would you store all the attributes of a Beautiful Soup Tag object in a variable named linkElem ?
 
-linkElem.attrs
+`linkElem.attrs`
 
 ## 14. Running import selenium doesn’t work. How do you properly import the selenium module?
 
@@ -96,6 +96,6 @@ Yes there is an easier way.<br />
 We can call the `submit()` method on any element within a form. This submits the form.
 
 ## 18. How can you simulate clicking a browser’s Forward, Back, and Refresh buttons with selenium ?
-`forward()` - goes one page forward
-`back()` - goes one page backward
+`forward()` - goes one page forward<br />
+`back()` - goes one page backward<br />
 `refresh()` - refreshes the page
