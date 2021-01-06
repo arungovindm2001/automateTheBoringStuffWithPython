@@ -6,7 +6,7 @@ where 0x7f3cd5026790 refers to the id
 
 ## 2. What does the wb.sheetnames workbook attribute contain?
 
-It contains a list of the all sheet names of the workbook.
+It contains a list of all the sheet names of the workbook.
 
 ## 3. How would you retrieve the Worksheet object for a sheet named 'Sheet1' ?
 
