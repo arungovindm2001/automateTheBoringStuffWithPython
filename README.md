@@ -1,35 +1,41 @@
 # Automate The Boring Stuff With Python
-Contains the answers to the practice questions and the practice projects of the book "Automate the Boring Stuff With Python" by Al Sweigart.
+Contains the answers to the practice questions and the practice projects of the book "Automate the Boring Stuff With Python, 2nd Edition" by Al Sweigart.
 ## Chapter 1 - Python Basics
-[Practice Questions](https://github.com/arungovindm2001/automateTheBoringStuffWithPython/blob/main/Chapter%201/README.md)
+[Practice Questions](https://github.com/arungovindm2001/automateTheBoringStuffWithPython/blob/main/Chapter%2001/README.md)
 
 ## Chapter 2 - Flow Control
-[Practice Questions](https://github.com/arungovindm2001/automateTheBoringStuffWithPython/blob/main/Chapter%202/README.md)
+[Practice Questions](https://github.com/arungovindm2001/automateTheBoringStuffWithPython/blob/main/Chapter%2002/README.md)
 
 ## Chapter 3 - Functions
-[Practice Questions](https://github.com/arungovindm2001/automateTheBoringStuffWithPython/blob/main/Chapter%203/README.md)<br />
-Practice Project - [The Collatz Sequence with Input Validation](https://github.com/arungovindm2001/automateTheBoringStuffWithPython/blob/main/Chapter%203/Practice%20Project/The%20Collatz%20Sequence%20with%20Input%20Validation.py)<br />
-Practice Project - [The Collatz Sequence](https://github.com/arungovindm2001/automateTheBoringStuffWithPython/blob/main/Chapter%203/Practice%20Project/The%20Collatz%20Sequence.py)
+[Practice Questions](https://github.com/arungovindm2001/automateTheBoringStuffWithPython/blob/main/Chapter%2003/README.md)<br />
+Practice Project - [The Collatz Sequence](https://github.com/arungovindm2001/automateTheBoringStuffWithPython/blob/main/Chapter%2003/Practice%20Projects/The%20Collatz%20Sequence.py)<br />
+
+Practice Project - [The Collatz Sequence with Input Validation](https://github.com/arungovindm2001/automateTheBoringStuffWithPython/blob/main/Chapter%2003/Practice%20Projects/The%20Collatz%20Sequence%20with%20Input%20Validation.py)<br />
+<br />
+
+To see the step-by step execution of Collatz Sequence [click here](http://pythontutor.com/visualize.html#code=def%20collatz%28number%29%3A%0A%20%20%20%20if%20number%20%25%202%20%3D%3D%200%3A%0A%20%20%20%20%20%20%20%20return%20number//2%0A%20%20%20%20else%3A%0A%20%20%20%20%20%20%20%20return%203*number%2B1%0A%0Aprint%28'Enter%20number%3A'%29%0Anumber%20%3D%20int%28input%28%29%29%0A%0An%3Dcollatz%28number%29%0Aprint%28n%29%0A%0Awhile%20n-1%20!%3D%200%3A%20%20%20%20%0A%20%20%20%20n%3Dcollatz%28n%29%0A%20%20%20%20print%28n%29%0A&cumulative=false&curInstr=45&heapPrimitives=nevernest&mode=display&origin=opt-frontend.js&py=3&rawInputLstJSON=%5B%2210%22%5D&textReferences=false)<br />
+
+To see the step-by step execution of Collatz Sequence with Input Validation [click here](http://pythontutor.com/visualize.html#code=def%20collatz%28number%29%3A%0A%20%20%20%20if%20number%20%25%202%20%3D%3D%200%3A%0A%20%20%20%20%20%20%20%20return%20number//2%0A%20%20%20%20else%3A%0A%20%20%20%20%20%20%20%20return%203*number%2B1%0A%20%20%20%20%0Atry%3A%0A%20%20%20%20print%28'Enter%20number%3A'%29%0A%20%20%20%20number%20%3D%20int%28input%28%29%29%0A%20%20%20%20n%3Dcollatz%28number%29%0A%20%20%20%20print%28n%29%0A%0A%20%20%20%20while%20n-1%20!%3D%200%3A%20%20%20%20%0A%20%20%20%20%20%20%20%20n%3Dcollatz%28n%29%0A%20%20%20%20%20%20%20%20print%28n%29%0A%0Aexcept%20ValueError%3A%0A%20%20%20%20print%28'You%20must%20enter%20an%20integer'%29&cumulative=false&curInstr=46&heapPrimitives=nevernest&mode=display&origin=opt-frontend.js&py=3&rawInputLstJSON=%5B%2210%22%5D&textReferences=false)
 
 ## Chapter 4 - Lists
-[Practice Questions](https://github.com/arungovindm2001/automateTheBoringStuffWithPython/blob/main/Chapter%204/README.md)
+[Practice Questions](https://github.com/arungovindm2001/automateTheBoringStuffWithPython/blob/main/Chapter%2004/README.md)
 
 ## Chapter 5 - Dictionaries and Structured Data
-[Practice Questions](https://github.com/arungovindm2001/automateTheBoringStuffWithPython/blob/main/Chapter%205/README.md)
+[Practice Questions](https://github.com/arungovindm2001/automateTheBoringStuffWithPython/blob/main/Chapter%2005/README.md)
 
 ## Chapter 6 - Manipulating Strings
-[Practice Questions](https://github.com/arungovindm2001/automateTheBoringStuffWithPython/blob/main/Chapter%206/README.md)
+[Practice Questions](https://github.com/arungovindm2001/automateTheBoringStuffWithPython/blob/main/Chapter%2006/README.md)
 
 ## Chapter 7 Pattern Matching with Regular Expressions
-[Practice Questions](https://github.com/arungovindm2001/automateTheBoringStuffWithPython/blob/main/Chapter%207/README.md)
+[Practice Questions](https://github.com/arungovindm2001/automateTheBoringStuffWithPython/blob/main/Chapter%2007/README.md)
 
 ## Chapter 8 - Input Validation
-[Practice Questions](https://github.com/arungovindm2001/automateTheBoringStuffWithPython/blob/main/Chapter%208/README.md)<br />
-Practice Project - [Multiplication Quiz](https://github.com/arungovindm2001/automateTheBoringStuffWithPython/blob/main/Chapter%208/Practice%20Projects/Multiplication%20Quiz.py)<br />
-Practice Project - [Sandwich Maker](https://github.com/arungovindm2001/automateTheBoringStuffWithPython/blob/main/Chapter%208/Practice%20Projects/Sandwich%20Maker.py)
+[Practice Questions](https://github.com/arungovindm2001/automateTheBoringStuffWithPython/blob/main/Chapter%2008/README.md)<br />
+Practice Project - [Multiplication Quiz](https://github.com/arungovindm2001/automateTheBoringStuffWithPython/blob/main/Chapter%2008/Practice%20Projects/Multiplication%20Quiz.py)<br />
+Practice Project - [Sandwich Maker](https://github.com/arungovindm2001/automateTheBoringStuffWithPython/blob/main/Chapter%2008/Practice%20Projects/Sandwich%20Maker.py)
 
 ## Chapter 9 - Reading and Writing Files
-[Practice Questions](https://github.com/arungovindm2001/automateTheBoringStuffWithPython/blob/main/Chapter%209/README.md)
+[Practice Questions](https://github.com/arungovindm2001/automateTheBoringStuffWithPython/blob/main/Chapter%2009/README.md)
 
 ## Chapter 10 - Organizing Files
 [Practice Questions](https://github.com/arungovindm2001/automateTheBoringStuffWithPython/blob/main/Chapter%2010/README.md)<br />
