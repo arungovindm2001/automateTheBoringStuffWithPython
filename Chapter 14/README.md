@@ -1,11 +1,10 @@
 ## 1. What three files do you need for EZSheets to access Google Sheets?
 
-To access Google Sheets, you need a credentials file named credentials.json, a token file for google sheets named token-sheets.pickle and a token file for Google Drive named token-drive.pickle.
+To access Google Sheets, you need a credentials file named `credentials.json`, a token file for google sheets named `token-sheets.pickle` and a token file for Google Drive named `token-drive.pickle`.
 
 ## 2. What two types of objects does EZSheets have?
 
-`ezsheets.Spreadsheet`
-`ezheets.Sheet`
+`ezsheets.Spreadsheet`, `ezheets.Sheet`
 
 ## 3. How can you create an Excel file from a Google Sheet spreadsheet?
 
@@ -35,7 +34,7 @@ For example: `delete(permanent=True)`
 
 ## 9. What functions will create a new Spreadsheet object and a new Sheet object, respectively?
 
-`createSpreadsheet()` - Creates a Spreadsheet
+`createSpreadsheet()` - Creates a Spreadsheet<br />
 `createSheet()` - Creates a new Sheet
 
 ## 10. What will happen if, by making frequent read and write requests with EZSheets, you exceed your Google account’s quota?
