@@ -90,7 +90,7 @@ Right click on to the element and select **Inspect Element**
 `click()` simulates mouse clicks<br />
 `send_keys()` simulates keyboard keys
 
-##17. You could call send_keys(Keys.ENTER) on the Submit button’s WebElement object, but what is an easier way to submit a form with selenium ?
+## 17. You could call send_keys(Keys.ENTER) on the Submit button’s WebElement object, but what is an easier way to submit a form with selenium ?
 
 Yes there is an easier way.<br />
 We can call the `submit()` method on any element within a form. This submits the form.
