@@ -55,8 +55,8 @@ Practice Project - [Command Line Emailer](https://github.com/arungovindm2001/aut
 [Practice Questions](https://github.com/arungovindm2001/automateTheBoringStuffWithPython/blob/main/Chapter%2013/README.md)<br />
 Practice Project - [Spreadsheet Cell Inverter](https://github.com/arungovindm2001/automateTheBoringStuffWithPython/blob/main/Chapter%2013/Practice%20Projects/Spreadsheet%20Cell%20Inverter.py)<br />
 Practice Project - [Multiplication Table Maker](https://github.com/arungovindm2001/automateTheBoringStuffWithPython/blob/main/Chapter%2013/Practice%20Projects/multiplicationTable.py)<br />
-Practice Project - [Sheet to Text Converter](https://github.com/arungovindm2001/automateTheBoringStuffWithPython/blob/main/Chapter%2013/Practice%20Projects/sheet2txt.py)<br />
-Practice Project - [Text to Sheet Converter](https://github.com/arungovindm2001/automateTheBoringStuffWithPython/blob/main/Chapter%2013/Practice%20Projects/txtToxlsx.py)
+Practice Project - [Text Files to Spreadsheet](https://github.com/arungovindm2001/automateTheBoringStuffWithPython/blob/main/Chapter%2013/Practice%20Projects/sheet2txt.py)<br />
+Practice Project - [Spreadsheet to Text Files](https://github.com/arungovindm2001/automateTheBoringStuffWithPython/blob/main/Chapter%2013/Practice%20Projects/txtToxlsx.py)
 
 ## Chapter 14 - Working with Google Sheets
 [Practice Questions](https://github.com/arungovindm2001/automateTheBoringStuffWithPython/blob/main/Chapter%2014/README.md)<br />
